@@ -15,7 +15,6 @@ public class Produtos {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-
     private Date fabricacao;
     private Date validade;
     private String descricao;
